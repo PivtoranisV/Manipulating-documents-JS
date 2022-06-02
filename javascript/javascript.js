@@ -16,3 +16,6 @@ linkPara.appendChild(text);
 //Moving and removing elements
 sect.appendChild(linkPara);
 linkPara.remove();
+
+//Manipulating styles
+para.setAttribute('class', 'highlight');
